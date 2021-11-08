@@ -1,0 +1,152 @@
+body {
+    background-color: #f1f1f1;
+    background-image: url(./Media/strings.png);
+    
+    
+    
+}
+.main {
+    background-color: slategray;
+    font-family: 'Open Sans', sans-serif;
+    width: 400px;
+    height: 300px;
+    margin: 7em auto;
+    border-radius: 20px;
+    box-shadow: 0px 11px 35px 2px rgba(80, 67, 67, 0.14);
+}
+
+a {
+    text-shadow: darkred;
+    color: black;
+    text-decoration: none;
+}
+nav {
+  color: black;
+}
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color:transparent;
+  color: black;
+  
+}
+.footertext {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 20px;
+  background-color: lightgray;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
+.title {
+    padding-top: 0px;
+    padding-left: 0%;
+    padding-right: 0px;
+    color: black;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 140px;
+}
+.smalltitle {
+    padding-top: 0px;
+    padding-left: 0px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 80px;
+}
+.smallertitle {
+  padding-left: 40px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+}
+.bodytext {
+  
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 25px;
+  
+}
+.bodytextabout {
+  padding-left: 40px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 20px;
+  
+}
+.bodytextaboutmore {
+  padding-left: 40px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: initial;
+  font-weight: normal;
+  font-size: 20px;
+  
+}
+.subtext {
+  
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: -50px;
+  background-color: lightgray;
+  border-radius: 6px;
+}
+.subtextcontact {
+  
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: 25px;
+  background-color: lightgray;
+  border-radius: 6px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+

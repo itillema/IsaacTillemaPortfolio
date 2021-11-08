@@ -81,6 +81,15 @@ nav {
   font-size: 25px;
   
 }
+.bodytextport {
+  
+  color: darkslategray;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: initial;
+  font-weight: normal;
+  font-size: 20px;
+  
+}
 .bodytextabout {
   padding-left: 40px;
   color: black;
@@ -149,4 +158,7 @@ nav {
   min-width: 100%;
   min-height: 100%;
 }
-
+.vl{
+  border-left: thick solid transparent;
+  height:fit-content;
+}

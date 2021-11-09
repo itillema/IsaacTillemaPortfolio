@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link hrf="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="icon" type="image/png" href="../Media/icon4.png">
+    
+    <script src="/index.js"></script>
+    <title>BusinessChallenges</title>
+</head>
+<body class="home static">
+    <nav class="navbar fixed-top navbar-exapnd-lg navbar-light p-md-3">
+        <div class="container">
+            <a href="../Home.html" class="navbar-brand">TILLEMA DEV</a>
+             <button 
+            type="button" 
+            class="navbar-toggler" 
+            data-bs-target="#navbarNav" 
+            data-bs-toggle="collapse" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Nav"
+            >
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+
+            <div class="collapse navbar-collapse navbar-light" id="navbarNav" >
+                <div class="mx-auto">
+                    <ul class="navbar-nav navbar-light">
+                        <li class="nav-item">
+                            <a href="../Home.html" class="nav-link text-black">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../About.html" class="nav-link text-black">BIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Portfolio/Portfolio.html" class="nav-link text-black">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Contact.html" class="nav-link text-black">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Blog.html" class="nav-link text-black">BLOG</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+
+    <div class="container mt-5 mb-5">
+        <div class="row no-gutters">
+            <div class="col-md-4 col-lg-4" >
+                <img src="../Media/440px-Elon_Musk_Royal_Society_(crop1).jpg" style="border-radius: 6px; border: thick solid darkgray;">
+                
+            </div>
+            <div class="col-md-8 col-lg-8">
+                <div class="d-flex flex-column" style="background-color: lightgrey; border-radius: 6px; border: thick solid darkgray;">
+                    <div class="d-flex flex-row justify-content-between align-items-center p-5  text-white">
+                        <h2 class="smalltitle" style="background-color: #f1f1f1; border-radius: 6px; padding: 10px;">Business Challenges</h2>
+                    </div>
+                    
+                    <div class="p-3 text-black">
+                        <h3 class="smallertitle" style="text-decoration: underline;">Description</h3>
+                        <p class="bodytextabout">
+                            <strong>Business Application Challenges</strong> is a project completed during my first course at Eleven Fifty Academy.
+                        </p>
+                        <p class="bodytextabout">
+                            The goal was to take three to four separate businesses and address their technical challenges by creating console applications for each.  These were made with C# console applications, utilizing .NET Framework, CRUD methodlogy, and object-oriented programming.
+                        </p>
+                        <p class="bodytextabout">
+                            This project was key to solidifying my understanding of object-oriented programming basics, as well as understanding what goes into technical business solutions.
+                        </p>
+                        
+                    </div>
+                    <div class="p-3 text-black">
+                        <h3 class="smallertitle" style="text-decoration: underline;">Project Aspects</h3>
+                        <p class="bodytextabout">
+                            C# Object-Oriented Programming
+                        </p>
+                        <p class="bodytextabout">
+                            .NET framework
+                        </p>
+                        <p class="bodytextabout">
+                            repository pattern methodology
+                        </p>
+                        <p class="bodytextabout">
+                            CRUD methodology
+                        </p>
+                    </div>
+                    <div class="p-3 text-black">
+                        <h3 class="smallertitle" style="text-decoration: underline;">Source Code</h3>
+                        <p class="bodytextabout">
+                            <a href="https://github.com/itillema/ConsoleApplicationChallenges" style="color: blue;">Business Application Challenges github repository</a>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    
+    <div class="footer">
+        <footer class="footertext">
+            &copy;2021 - TILLEMA DEV
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function(){
+            if(window.pageYOffset > 100){
+                nav.classList.add('bg-light', 'shadow');
+            }
+            else{
+                nav.classList.remove('bg-light', 'shadow');
+            }
+        });
+    </script>
+</body>
+</html>
